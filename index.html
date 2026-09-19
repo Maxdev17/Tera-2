@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OlyLife | IMGconcepts — Wellness Technology</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+      <a href="#hero" class="nav-logo">OlyLife</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#affiliate" class="nav-link">Affiliate</a>
+        <a href="#contact" class="nav-link">Order Now</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Wellness Technology</p>
+        <h1 class="hero-title reveal">
+          <span>Feel Better.</span>
+          <span class="hero-title-accent">Live Better.</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          OlyLife products harness the power of PEMF therapy and grounding
+          technology — trusted in 155 countries worldwide.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#products" class="btn btn-primary">Explore Products</a>
+          <a href="#contact" class="btn btn-outline">Order Now</a>
+        </div>
+        <div class="hero-scroll-indicator reveal">
+          <span>Scroll to explore</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="hero-stat">
+          <span class="stat-number" data-target="155">0</span>
+          <span class="stat-suffix">+</span>
+          <p>Countries</p>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="2022">0</span>
+          <span class="stat-suffix"></span>
+          <p>Founded</p>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-suffix"></span>
+          <p>Continents</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <img
+              src="images/client-profile.jpg"
+              alt="Idowu Michael Gbenga — IMGconcepts"
+              class="about-img"
+            />
+            <div class="about-photo-accent"></div>
+          </div>
+          <div class="about-content">
+            <p class="section-eyebrow reveal">Your Agent</p>
+            <h2 class="section-title reveal">Idowu Michael Gbenga</h2>
+            <p class="about-role reveal">
+              Sole Owner | Entrepreneur | Digital Marketer | Digital Artist
+            </p>
+            <p class="about-brand reveal">
+              IMGconcepts — Connecting Wellness, Technology, Creativity &
+              Opportunity
+            </p>
+            <p class="about-bio reveal">
+              I am a passionate digital entrepreneur dedicated to bringing
+              cutting-edge wellness technology to people across Africa and
+              beyond. Through IMGconcepts, I connect individuals with OlyLife
+              products that genuinely transform health and quality of life.
+            </p>
+            <div class="about-actions reveal">
+              <a
+                href="https://wa.me/2348139285443"
+                class="btn btn-primary"
+                target="_blank"
+                >Chat on WhatsApp</a
+              >
+              <a
+                href="mailto:imghealthnwealth@gmail.com"
+                class="btn btn-outline"
+                target="_blank"
+                >Send Email</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products section" id="products">
+      <div class="container">
+        <p class="section-eyebrow reveal">Our Products</p>
+        <h2 class="section-title reveal">Wellness Technology That Works</h2>
+        <p class="section-subtitle reveal">
+          Each product is engineered to support your body's natural recovery and
+          energy systems.
+        </p>
+
+        <!-- PRODUCT TABS -->
+        <div class="product-tabs reveal">
+          <button class="tab-btn active" data-tab="featured">Featured</button>
+          <button class="tab-btn" data-tab="devices">Devices</button>
+          <button class="tab-btn" data-tab="session">Book Session</button>
+        </div>
+
+        <!-- TAB: FEATURED -->
+        <div class="tab-content active" id="tab-featured">
+          <div class="products-grid">
+            <div class="product-card reveal" data-delay="0">
+              <div class="product-badge">Best Seller</div>
+              <div class="product-img-wrap">
+                <img src="images/product-tera-p90.jpg" alt="Tera P90 PEMF Device" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>Tera P90</h3>
+                <p>
+                  Combines PEMF bio-magnetic energy with Terahertz wave
+                  technology to restore cellular balance, improve circulation,
+                  relieve pain, and boost overall vitality.
+                </p>
+                <div class="product-price">$1,200</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="Tera P90 - $1,200"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+
+            <div class="product-card reveal" data-delay="100">
+              <div class="product-badge premium">Premium</div>
+              <div class="product-img-wrap">
+                <img src="images/product-tera-p90-plus.jpg" alt="Tera P90+ PEMF Device" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>Tera P90+</h3>
+                <p>
+                  The flagship 3-in-1 wellness system — includes the main PEMF &
+                  Terahertz device, the Frost Age Beauty Device for anti-aging,
+                  and the Revitaluxe Massager for deep tissue recovery.
+                </p>
+                <div class="product-price">$1,800</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="Tera P90+ - $1,800"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+
+            <div class="product-card reveal" data-delay="200">
+              <div class="product-img-wrap">
+                <img src="images/product-shaken-massager.jpg" alt="Shaken Massager" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>Shaken Massager</h3>
+                <p>
+                  Targeted vibration and magnetic therapy for muscle recovery,
+                  deep tissue relief, and improved circulation after physical
+                  activity.
+                </p>
+                <div class="product-price">$1,200</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="Shaken Massager - $1,200"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB: DEVICES -->
+        <div class="tab-content" id="tab-devices">
+          <div class="products-grid">
+            <div class="product-card reveal" data-delay="0">
+              <div class="product-img-wrap">
+                 <img src="images/product-thz-wand.jpg" alt="THz Vitality Wand" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>THz Vitality Wand</h3>
+                <p>
+                  A 1200-watt Terahertz wand that penetrates up to 20–30cm
+                  beneath the skin, targeting muscles, joints, and deeper
+                  tissues for cellular energy and pain relief.
+                </p>
+                <div class="product-price">$720</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="THz Vitality Wand - $720"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+
+            <div class="product-card reveal" data-delay="100">
+              <div class="product-img-wrap">
+                <img src="images/product-bamaair.jpg" alt="A9 Smart BamaAir" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>A9 Smart BamaAir</h3>
+                <p>
+                  Inspired by Bama, Guangxi — China's legendary "Longevity
+                  Village" — this smart air purifier generates 200 million
+                  negative ions per cm³ with true HEPA filtration for a cleaner,
+                  healthier living space.
+                </p>
+                <div class="product-price">$600</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="A9 Smart BamaAir - $600"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+
+            <div class="product-card reveal" data-delay="200">
+              <div class="product-img-wrap">
+                <img src="images/product-galaxy-g-one.jpg" alt="Galaxy G-One Eye Massager" class="product-img" />
+              </div>
+              <div class="product-info">
+                <h3>Galaxy G-One</h3>
+                <p>
+                  Advanced eye massager using terahertz wave technology to
+                  relieve eye strain, reduce puffiness, improve circulation
+                  around the eyes, and support vision wellness.
+                </p>
+                <div class="product-price">$600</div>
+                <a
+                  href="#contact"
+                  class="btn btn-primary product-order-btn"
+                  data-product="Galaxy G-One - $600"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB: SESSION -->
+        <div class="tab-content" id="tab-session">
+          <div class="session-card reveal">
+            <div class="session-content">
+              <p class="section-eyebrow">Try Before You Buy</p>
+              <h3>30-Minute Experience Session</h3>
+              <p>
+                Not ready to commit? Book a personal 30-minute Tera P90 session
+                and experience the technology firsthand — no pressure, no
+                commitment.
+              </p>
+              <div class="session-details">
+                <div class="session-detail">
+                  <span class="detail-icon">⏱</span>
+                  <span>30 Minutes</span>
+                </div>
+                <div class="session-detail">
+                  <span class="detail-icon">📍</span>
+                  <span>8 Ladipo Kuku St, Off Allen Ave, Ikeja, Lagos</span>
+                </div>
+                <div class="session-detail">
+                  <span class="detail-icon">💰</span>
+                  <span>₦30,000 per session (location dependent)</span>
+                </div>
+                <div class="session-detail">
+                  <span class="detail-icon">🗓</span>
+                  <span>Free seminar every Thursday 10AM–12PM</span>
+                </div>
+              </div>
+              <a
+                href="#contact"
+                class="btn btn-primary session-order-btn"
+                data-product="30-Minute Session - ₦30,000"
+                >Book a Session</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <p class="section-eyebrow reveal">Real Results</p>
+        <h2 class="section-title reveal">What People Are Saying</h2>
+        <p class="section-subtitle reveal">
+          These are real experiences from real people using OlyLife products.
+        </p>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-img-card reveal" data-delay="0">
+            <img
+              src="images/testimony1.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="100">
+            <img
+              src="images/testimony2.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="200">
+            <img
+              src="images/testimony3.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="300">
+            <img
+              src="images/testimony4.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="400">
+            <img
+              src="images/testimony5.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="500">
+            <img
+              src="images/testimony6.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+          <div class="testimonial-img-card reveal" data-delay="600">
+            <img
+              src="images/testimony7.jpg"
+              alt="Customer testimonial"
+              class="testimonial-img"
+            />
+            <div class="testimonial-overlay">
+              <span>View</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img src="" alt="Testimonial" class="lightbox-img" id="lightboxImg" />
+    </div>
+
+    <!-- AFFILIATE SECTION -->
+    <section class="affiliate section" id="affiliate">
+      <div class="container">
+        <div class="affiliate-grid">
+          <div class="affiliate-content">
+            <p class="section-eyebrow reveal">Join the Network</p>
+            <h2 class="section-title reveal">Become an Affiliate</h2>
+            <p class="affiliate-text reveal">
+              OlyLife products are available in 155 countries across 6
+              continents. Whether you want an extra income stream or a full
+              business opportunity, there is a place for you in the OlyLife
+              network.
+            </p>
+            <div class="affiliate-stats reveal">
+              <div class="aff-stat">
+                <span class="stat-number" data-target="155">0</span
+                ><span>+</span>
+                <p>Countries</p>
+              </div>
+              <div class="aff-stat">
+                <span class="stat-number" data-target="6">0</span>
+                <p>Continents</p>
+              </div>
+              <div class="aff-stat">
+                <span class="stat-number" data-target="2022">0</span>
+                <p>Est.</p>
+              </div>
+            </div>
+            <a
+              href="https://wa.me/2348139285443"
+              class="btn btn-primary reveal"
+              target="_blank"
+              >Talk to Us on WhatsApp</a
+            >
+          </div>
+          <div class="affiliate-image reveal">
+            <img
+              src="images/affiliate-world-map.jpg"
+              alt="OlyLife in 155 countries"
+              class="aff-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / ORDER SECTION -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <p class="section-eyebrow reveal">Get Yours</p>
+        <h2 class="section-title reveal">Place Your Order</h2>
+        <p class="section-subtitle reveal">
+          Fill in your details below and we will reach out to confirm your order
+          within 24 hours.
+        </p>
+
+        <div class="contact-grid">
+          <div class="order-form-wrap reveal">
+            <div class="order-form">
+              <div class="form-group">
+                <label for="order-product">Select Product</label>
+                <select id="order-product">
+                  <option value="">— Choose a product —</option>
+                  <option value="Tera P90 - $1,200">Tera P90 — $1,200</option>
+                  <option value="Tera P90+ - $1,800">Tera P90+ — $1,800</option>
+                  <option value="Shaken Massager - $1,200">
+                    Shaken Massager — $1,200
+                  </option>
+                  <option value="THz Vitality Wand - $720">
+                    THz Vitality Wand — $720
+                  </option>
+                  <option value="A9 Smart BamaAir - $600">
+                    A9 Smart BamaAir — $600
+                  </option>
+                  <option value="Galaxy G-One - $600">
+                    Galaxy G-One — $600
+                  </option>
+                  <option value="30-Minute Session - 30000 Naira">
+                    Book a Session — ₦30,000
+                  </option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="order-name">Full Name</label>
+                <input
+                  type="text"
+                  id="order-name"
+                  placeholder="Your full name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="order-phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="order-phone"
+                  placeholder="Your phone number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="order-location">Location</label>
+                <input
+                  type="text"
+                  id="order-location"
+                  placeholder="Your city or area"
+                />
+              </div>
+              <div class="form-group">
+                <label for="order-notes">Additional Notes</label>
+                <textarea
+                  id="order-notes"
+                  rows="3"
+                  placeholder="Any questions or special requests"
+                ></textarea>
+              </div>
+              <div class="form-actions">
+                <button class="btn btn-primary" id="whatsappBtn">
+                  Send via WhatsApp
+                </button>
+                <button class="btn btn-outline" id="emailBtn">
+                  Send via Email
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info reveal">
+            <h3>Contact Directly</h3>
+            <div class="contact-item">
+              <span class="contact-icon">💬</span>
+              <div>
+                <p class="contact-label">WhatsApp</p>
+                <a href="https://wa.me/2348139285443" target="_blank"
+                  >+234 813 928 5443</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <p class="contact-label">Email</p>
+                <a href="mailto:imghealthnwealth@gmail.com"
+                  >imghealthnwealth@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">✈️</span>
+              <div>
+                <p class="contact-label">Telegram</p>
+                <a href="https://t.me/IMGolylife" target="_blank"
+                  >@IMGolylife</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <p class="contact-label">Address</p>
+                <p>8 Ladipo Kuku Street, Off Allen Avenue, Ikeja, Lagos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#hero" class="nav-logo">OlyLife</a>
+            <p>
+              Wellness technology trusted in 155 countries. Brought to you by
+              IMGconcepts.
+            </p>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#affiliate">Affiliate</a>
+            <a href="#contact">Order Now</a>
+          </div>
+          <div class="footer-links-col">
+            <h4>Contact</h4>
+            <a href="https://wa.me/2348139285443" target="_blank">WhatsApp</a>
+            <a href="mailto:imghealthnwealth@gmail.com">Email</a>
+            <a href="https://t.me/IMGolylife" target="_blank">Telegram</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 IMGconcepts. All rights reserved.</p>
+          <div class="footer-credit">
+            <p>
+              Built by
+              <a href="https://wa.me/2347089428435" target="_blank"
+                >Maxwell — VagabondCode</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
