@@ -534,7 +534,7 @@ a {
 }
 
 .product-img-wrap {
-  height: 200px;
+  height: 300px;
   background: linear-gradient(135deg, var(--black-soft), var(--black-card));
   display: flex;
   align-items: center;
